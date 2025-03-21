@@ -3,7 +3,7 @@ name: Deploy Static Website
 on:
   push:
     branches:
-      - main  # Deploy only when the main branch is updated
+      - main  # Deploy only when the main branch is update
 
 jobs:
   build:
